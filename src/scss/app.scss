@@ -28,7 +28,7 @@ body {
   &__items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   &__top {
@@ -44,7 +44,7 @@ body {
 
   &--cart {
     max-width: 820px;
-    margin: 90px auto;
+    margin: 30px auto;
     .content__title {
       margin: 0;
     }
@@ -71,7 +71,7 @@ body {
       margin-right: 10px;
       path {
         stroke: $black;
-        strokeWidth: 1.9;
+        stroke-width: 1.9;
       }
     }
   }
@@ -292,6 +292,7 @@ body {
     }
 
     icon {
+      font-style: normal;
       position: relative;
       top: 2px;
     }

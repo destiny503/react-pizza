@@ -73,6 +73,7 @@
     "test": "node scripts/test.js",
     "server": "npx json-server --watch public/db.json --port=3001"
   },
+  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": [
       "react-app",
