@@ -10,8 +10,8 @@ function App() {
             <Header />
             <div className="content">
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='/cart' element={<Cart/>} />
+                    <Route path="" element={<Home/>}/>
+                    <Route path="cart" element={<Cart/>} />
                 </Routes>
             </div>
         </div>
