@@ -1,12 +1,19 @@
-@import '../variables';
+@import "../variables";
 
 .pizza-block {
-  width: 280px;
+  width: 100%;
   text-align: center;
   margin-bottom: 65px;
 
-  &:not(:nth-of-type(4n)) {
-    margin-right: 35px;
+  @media (max-width: 768px) {
+    &:not(:nth-of-type) {
+      border-bottom: 1px solid #efefef;
+      margin-right: 25px;
+      padding-bottom: 45px;
+    }
+  }
+  @media (max-width: 1090px) {
+    margin-bottom: 35px;
   }
 
   &__image {
