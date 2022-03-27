@@ -7,7 +7,7 @@ import {Provider} from "react-redux";
 import store from "./redux/store";
 
 ReactDOM.render(
-    <BrowserRouter basename="/react-pizza">
+    <BrowserRouter>
         <Provider store={store}>
             <App />
         </Provider>
