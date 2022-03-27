@@ -2,4 +2,4 @@
 
 Технологии: ReactJS (Router 6, хуки), Redux (thunk), SCSS, json-server
 
-[Открыть](https://tsartsartsar.github.io/react-pizza/)
+[Открыть](https://react-pizza-tsar.herokuapp.com/)
