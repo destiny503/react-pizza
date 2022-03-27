@@ -2,6 +2,7 @@
   "name": "react-pizza",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -69,7 +70,7 @@
     "workbox-webpack-plugin": "^6.5.2"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\"  \"json-server -p 3001 -w public/db.json\"",
+    "start": "concurrently \"node scripts/start.js\" \"json-server --watch public/db.json\" ",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "server": "node server.js",
